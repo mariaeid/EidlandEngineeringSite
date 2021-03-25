@@ -1,0 +1,41 @@
+@import "../../variables.scss";
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 15vw 2rem 15vw;
+}
+
+// .container > div:nth-child(1) {
+//     background-color: #add8e6;
+// }
+
+// .container > div:nth-child(2) {
+//     background-color: #cca489;
+// }
+
+// .container > div:nth-child(3) {
+//     background-color: #BEBBC9;
+// }
+
+// .container > div:nth-child(4) {
+//     background-color: #d3d3d3;
+// }
+
+.container > div:nth-child(1) {
+    background-color: #BEBBC9;
+}
+
+.container > div:nth-child(2) {
+    background-color: #fadfcf;
+}
+
+.container > div:nth-child(3) {
+    background-color: #e1d9c6;
+}
+
+.container > div:nth-child(4) {
+    background-color: #BAC0C4;
+}

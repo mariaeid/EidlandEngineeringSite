@@ -1,0 +1,17 @@
+@import "../../variables.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+
+  .iconContainer {
+    display: flex;
+  }
+
+  .projectsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,8 @@
+@import "../../variables.scss";
+
+.container {
+    width: 0;
+    height: 0;
+    border-top: 3vh solid $highLight;
+    border-left: 100vw solid transparent;
+}
